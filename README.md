@@ -33,3 +33,5 @@ A configuration can be found in settings.xml file. It adds sonatype repository.
 dynamic-config project contains an example where configuration is injected dynamically.
 ## Hello + Dictionary examples
 dictionary contains a bundle that exposes HelloDictionary service providing hello message, while hello bundle contains a bundle that exposes a client of this service using Declarative Services.
+## REST
+Shows how to implement JAXRS endpoint.

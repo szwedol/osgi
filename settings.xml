@@ -1,0 +1,24 @@
+<settings>
+      <profiles>
+        <profile>
+          <id>OSGi</id>
+          <activation>
+            <activeByDefault>true</activeByDefault>
+          </activation>
+          <repositories>
+            <repository>
+              <id>osgi-archetype</id>
+              <url>https://oss.sonatype.org/content/groups/osgi</url>
+              <releases>
+                <enabled>true</enabled>
+                <checksumPolicy>fail</checksumPolicy>
+              </releases>
+              <snapshots>
+                <enabled>true</enabled>
+                <checksumPolicy>warn</checksumPolicy>
+              </snapshots>
+            </repository>
+          </repositories>
+        </profile>
+      </profiles>
+    </settings>
